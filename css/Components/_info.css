@@ -1,0 +1,39 @@
+.info__text{
+    font-family: 'TT Lakes';
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 16px;
+}
+.info__btn{
+    font-family: 'TT Lakes';
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+    padding-left: 20px;
+    border: solid transparent;
+    margin-bottom: 16px;
+}
+.info__btn::before{
+    content: "«";
+    position: absolute;
+    font-size: 25px;
+    transform: rotate(0.75turn);
+    left: 0;
+    color: #41F6D7;
+}
+
+.info__btn:focus{
+    outline: none;
+    border: solid #D9FFF5;
+    width: 120px;
+    height: 30px;
+    white-space: nowrap;
+}
+
+.info__image-box{
+    background-image: url(../../img/_MG_3223.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 288px;
+    height: 176px;
+}

@@ -1,0 +1,117 @@
+@media(min-width:320px){
+    .header__btn-box-tab{
+        display: none;
+    }
+    .info__text-span-1,
+    .info__text-span-2{
+     display: none;   
+    }
+    .header__btn-link--span,
+    .header__btn-status--span{
+        display: none;
+    }
+}
+@media(min-width:768px){
+    .header__btn-box-tab{
+        display: flex;
+        gap: 16px;
+        margin-left: 251px;
+        position: relative;
+    }
+    .header__logo::after{
+       display: none;
+    }
+    .header__logo::before{
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 30px;
+        top: 10px;
+        left: -27px;
+        border-right: 3px solid var(--gray-color);
+        border-radius: 1px;
+     }
+    .header__btn-box-tab::after{
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 30px;
+        top: 10px;
+        left: 150px;
+        border-right: 3px solid var(--gray-color);
+        border-radius: 1px;
+    }
+    .header__btn-box-all-scrin{
+        display: flex;
+        gap: 16px;
+    }
+    .info__inner{
+        display: flex;
+        gap: 50px;
+    }
+    .info__box-text{
+        width: 312px;
+    }
+    .info__text-span-1{
+        display: block;
+    }
+    .info__image-box{
+        width: 360px;
+        height: 208px;
+        border-radius: 5px;
+    }
+    .header__btn-link--span,
+    .header__btn-status--span{
+        display: none;
+    }
+    .nav__title::before{
+        left: -30px;
+    }
+}
+@media (max-width: 1399px) and 
+(min-width: 1120px) {
+    .header{
+        background-color: var(--gray-color);
+        border-bottom: solid transparent;
+        position: relative;
+    }
+    .header__btn-box-tab,
+     div .header__box-logo-burger{
+        display: none;
+    }
+    .header__box{
+        position: absolute;
+        right: 30px;
+        top: 5px;
+    }
+    .header__btn-status,
+    .header__btn-link{
+        display: flex;
+       align-items: center;
+       gap: 9px;
+    }
+    .nav__list{
+        margin-left: 0;
+        margin-right: 19px;
+    }
+    .nav__menu{
+        flex-wrap: wrap;
+    }
+    .info__text-span-2{
+        display: block;
+    }
+    .info__box-text{
+        width: 490px;
+    }
+    .info__image-box{
+        width: 532px;
+        height: 307px;
+    }
+    .header__btn-link--span,
+    .header__btn-status--span{
+        display: block;
+    }
+    .nav__title::before {
+        left: -15px;
+    }
+}

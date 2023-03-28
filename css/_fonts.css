@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'TT Lakes';
+	src: url('../fonts/TTLakesCondensed-Medium.woff') format('woff');
+		/* url('../fonts/font-name.woff') format('woff'); */
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}

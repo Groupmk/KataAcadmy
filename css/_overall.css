@@ -1,0 +1,21 @@
+.container {
+	max-width: 1150px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.site-container{
+	overflow: hidden;
+}
+.btn-reset{
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	padding: 0;
+}
+.header__btn:focus{
+    outline: none;
+    border-radius: 100px;
+    box-shadow: 0 0 0 4px var(--pink-color);
+    width: 40px;
+    height: 40px;
+}
