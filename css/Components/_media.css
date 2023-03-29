@@ -101,10 +101,10 @@
         display: block;
     }
     .info__box-text{
-        width: 50%px;
+        width: 50%;
     }
     .info__image-box{
-        width: 50%px;
+        width: 50%;
         height: 307px;
     }
     .header__btn-link--span,
