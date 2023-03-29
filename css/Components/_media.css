@@ -73,14 +73,14 @@
     .header{
         background-color: var(--gray-color);
         border-bottom: solid transparent;
-        position: relative;
     }
     .header__btn-box-tab,
-     div .header__box-logo-burger{
+        .header__box-logo-burger{
         display: none;
     }
     .header__box{
-        position: absolute;
+        justify-content: flex-end;
+        transform: translate(-21px, 90px);
         right: 30px;
         top: 5px;
     }
@@ -113,5 +113,8 @@
     }
     .nav__title::before {
         left: -15px;
+    }
+    .header{
+        margin-top: -80px;
     }
 }
