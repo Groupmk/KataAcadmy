@@ -41,7 +41,7 @@
         border-right: 3px solid var(--gray-color);
         border-radius: 1px;
     }
-    .header__btn-box-all-scrin{
+    .header__btn-box-all-screen{
         display: flex;
         gap: 16px;
     }
