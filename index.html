@@ -15,23 +15,74 @@
         <div class="header__box">
           <div class="header__box-logo-burger">
             <div class="header__burger">
-              <button class="btn-reset header__burger-btn header__btn">
-                <img
-                  src="img/burger.svg"
-                  alt="Бургер-меню"
-                  class="header__burger-image"
-                />
-              </button>
+              <input id="header__burger--click" type="checkbox" name="header__burger-btn"/>
+              <label for="header__burger--click" class="header__burger-btn">
+                <span class="header__burger-btn-click">
+                  <img src="img/burger.svg" alt="">
+                </span>
+                <!-- <input type="image" src="img/burger.svg" alt="Бургер-меню" class="header__burger-btn" name="header__burger-btn"> -->
+              </label>
+              <div class="header__head-burger-box">
+                <img src="img/logo.svg" alt="" class="header__btn-logo-image">
+                <img src="img/search.svg" alt="" class="header__btn-search-image">
+              </div>
+              <nav class="header__nav-bar">
+                <ul class="header__nav-menu">
+                  <li class="header__nav-list">
+                    <a href="#" class="header__nav-list-link"> Ремонтируемые бренды </a>
+                  </li>
+                  <li class="header__nav-list">
+                    <a href="#" class="header__nav-list-link">
+                      Ремонтируемые устройства
+                    </a>
+                  </li>
+                  <li class="header__nav-list">
+                    <a href="#" class="header__nav-list-link"> Цены на услуги </a>
+                  </li>
+                  <li class="header__nav-list">
+                    <a href="#" class="header__nav-list-link">
+                      Адреса сервисных центров
+                    </a>
+                  </li>
+                  <li class="header__nav-list">
+                    <a href="#" class="header__nav-list-link"> Специальные цены </a>
+                  </li>
+                  <li class="header__nav-list">
+                    <a href="#" class="header__nav-list-link"> Отзывы </a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="header__footer-burger-box">
+                <div class="header__footer-link-box">
+                  <a href="#" class="header__burger-link-image">
+                    <img src="img/call.svg" alt="call">
+                  </a>
+                  <a href="#" class="header__burger-link-image">
+                    <img src="img/chat.svg" alt="chat">
+                  </a>
+                  <a href="#" class="header__burger-link-image">
+                    <img src="img/profile.svg" alt="profile">
+                  </a>
+                </div>
+                <a href="mail@cps.com" class="header__burger-maill">mail@cps.com</a>
+                <a href="tel:8 800 890 8900" class="header__burger-tel">8 800 890 8900</a>
+                <div class="header__burger-lang">
+                  <span class="header__burger-lang-ru">RU</span>
+                  <span class="header__burger-lang-en">EN</span>
+                  <span class="header__burger-lang-ch">CH</span>
+                </div>
+              </div>
             </div>
-            <div class="logo header__logo">
-              <a href="#" class="header__logo-img--link">
-                <img
-                  src="img/logo.svg"
-                  alt="Логотип"
-                  class="header__logo-img"
-                />
-              </a>
-            </div>
+           
+          </div>
+          <div class="logo header__logo">
+            <a href="#" class="header__logo-img--link">
+              <img
+                src="img/logo.svg"
+                alt="Логотип"
+                class="header__logo-img"
+              />
+            </a>
           </div>
           <div class="header__btn-box-tab">
             <button class="btn-reset header__btn-tel">
