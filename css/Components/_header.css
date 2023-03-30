@@ -22,7 +22,6 @@
     max-width: 100%;
     position: relative;
 }
-
 .header__logo::after{
     content: "";
     position: absolute;
@@ -58,17 +57,13 @@
     top: 4px;
     width: 30px;
     height: 34px;
- 
 }
 #header__burger--click:checked~.header__nav-bar{
     visibility: visible;
     z-index: 1;
     left: 0;
 }
-
-
 .header__head-burger-box{
-    
     display: flex;
     left: -100%;
     justify-content: flex-start;
@@ -77,21 +72,17 @@
     margin-top: 20px;
 }
 .header__footer-burger-box{
- 
     display: flex;
     flex-direction: column;
     left: -100%;
     margin-left: 15px;
     bottom: 32px;
-
 }
 .header__burger-maill {
-    
     font-family: 'TT Lakes';
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 12px;
-
 }
 .header__burger-tel {
     font-family: 'TT Lakes';
@@ -107,7 +98,6 @@
 .header__burger-lang-ru {
     color: #7E7E82;
 }
-
 .header__btn-logo-image{
     width: 100px;
     height: 50px;
@@ -116,7 +106,6 @@
     width: 40px;
     height: 40px;
 }
-
 #header__burger--click:checked~.header__burger-btn-of>span::before{
     top:0;
 }
@@ -137,7 +126,6 @@
     gap: 16px;
     margin-bottom: 16px;
 }
-
 .header__nav-bar {
     display: block;
     visibility: hidden;
