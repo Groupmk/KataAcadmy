@@ -42,42 +42,45 @@
 .header__burger{
     display: flex;
     background-color: var(--white-color);
+    position: relative;
+}
+
+.header__burger-btn-on{
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
 }
 #header__burger--click{
     opacity: 0;
+    position: absolute;
+    left: 6px;
+    top: 4px;
+    width: 30px;
+    height: 34px;
+ 
 }
 #header__burger--click:checked~.header__nav-bar{
     visibility: visible;
     z-index: 1;
     left: 0;
 }
-#header__burger--click:checked~.header__footer-burger-box{
-    visibility: visible;
-    z-index: 1;
-    left: 0;
-}
 
-#header__burger--click:checked~.header__head-burger-box{
-    visibility: visible;
-    z-index: 2;
-    left: 0;
-}
+
 .header__head-burger-box{
-    visibility: hidden;
+    
     display: flex;
     left: -100%;
-    position: fixed;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 79px;
-    margin-left: 70px;
-    margin-top: -16px;
+    margin-left: 80px;
+    margin-top: 20px;
 }
 .header__footer-burger-box{
-    visibility: hidden;
+ 
     display: flex;
     flex-direction: column;
     left: -100%;
-    position: fixed;
     margin-left: 15px;
     bottom: 32px;
 
@@ -104,10 +107,7 @@
 .header__burger-lang-ru {
     color: #7E7E82;
 }
-.header__burger-lang-en {
-}
-.header__burger-lang-ch {
-}
+
 .header__btn-logo-image{
     width: 100px;
     height: 50px;
@@ -116,13 +116,14 @@
     width: 40px;
     height: 40px;
 }
-#header__burger--click:checked~.header__burger-btn>span::before{
+
+#header__burger--click:checked~.header__burger-btn-of>span::before{
     top:0;
 }
-#header__burger--click:checked~.header__burger-btn>span::after{
+#header__burger--click:checked~.header__burger-btn-of>span::after{
     top: 0;
 }
-.header__burger-btn{
+.header__burger-btn-of{
     position: absolute;
     width: 40px;
     height: 40px;
@@ -136,18 +137,7 @@
     gap: 16px;
     margin-bottom: 16px;
 }
-.header__burger-btn>.header__burger-btn-click,
-.header__burger-btn>.header__burger-btn-click::before,
-.header__burger-btn>.header__burger-btn-click::after{
-    display: block;
-    width: 100%;
-    height: 100%;
-    left: -15px;
-    top: -11px;
-}
-.header__burger-btn-click{
 
-}
 .header__nav-bar {
     display: block;
     visibility: hidden;
@@ -157,29 +147,21 @@
     background-color: var(--white-color);
     top: 0;
     left: -100%;
-    display: grid;
-    grid-template-columns: 390px;
+    overflow: scroll;
 }
-.header__burger{
- 
+.box-shadow{
+    width: 320px;
+    position: absolute;
     box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
-
 }
 .header__nav-menu {
-    overflow-x: scroll;
-    margin-top: 120px;
+    margin-top: 50px;
     z-index: 2;
     margin-left: 15px;
-   
-
 }
 .header__nav-list {
     font-family: 'TT Lakes';
     font-size: 16px;
     line-height: 24px;
     padding-bottom: 32px;
-}
-.header__nav-list-link {
-}
-.header__nav__list {
 }
