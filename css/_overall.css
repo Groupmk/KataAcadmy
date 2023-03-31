@@ -1,23 +1,23 @@
 .container {
-	max-width: 1150px;
-	padding: 0 15px;
-	margin: 0 auto;
+  max-width: 1150px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
-.site-container{
-	overflow: hidden;
+.site-container {
+  overflow: hidden;
 }
-.btn-reset{
-	border: none;
-	outline: none;
-	background-color: transparent;
-	cursor: pointer;
-	padding: 0;
+.btn-reset {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
 }
-.header__btn:focus{
-    outline: none;
-    border-radius: 100px;
-    border: solid var(--pink-color);
+.header__btn:focus {
+  outline: none;
+  border-radius: 100px;
+  border: solid var(--pink-color);
 }
-a{
-	outline: none;
+a {
+  outline: none;
 }
