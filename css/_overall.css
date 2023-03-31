@@ -8,6 +8,7 @@
 }
 .btn-reset{
 	border: none;
+	outline: none;
 	background-color: transparent;
 	cursor: pointer;
 	padding: 0;
@@ -15,7 +16,8 @@
 .header__btn:focus{
     outline: none;
     border-radius: 100px;
-    box-shadow: 0 0 0 4px var(--pink-color);
-    width: 40px;
-    height: 40px;
+    border: solid var(--pink-color);
+}
+a{
+	outline: none;
 }
